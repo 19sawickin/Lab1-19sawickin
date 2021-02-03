@@ -11,8 +11,10 @@ public class CupcakeShop {
         // Instantiates an instance of our baker as a local variable
         Baker baker = new Baker();
         CS15Cupcake cupcake = baker.bakeCupcake();
-        //baker.bakeCupcake();
         Decorator decorator = new Decorator(cupcake);
+        decorator.addCherry();
+        Froster froster = new Froster(cupcake);
+        froster.addFrosting();
 
 
 
