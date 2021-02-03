@@ -14,7 +14,6 @@ public class App extends Application {
     // This sets up the empty GUI (Graphical User Interface) frame!
     new CupcakeFrame(stage);
     new CupcakeShop();
-    //TODO Instantiate the CupcakeShop here
   }
 
   /*

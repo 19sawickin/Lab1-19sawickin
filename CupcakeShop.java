@@ -15,11 +15,5 @@ public class CupcakeShop {
         decorator.addCherry();
         Froster froster = new Froster(cupcake);
         froster.addFrosting();
-
-
-
-        //TODO Tell the baker to bake a cupcake
-
-        //TODO Have the decorator and froster do their jobs here
     }
 }

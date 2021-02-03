@@ -35,7 +35,6 @@ public class Decorator extends CupcakeDecoratorSupport {
   @Override
   public void addSprinkle(CS15Sprinkle sprinkle) {
     _cupcake.placeSprinkle(sprinkle);
-    //TODO Add the sprinkle to the cupcake
   }
 
   public void addCherry(){
@@ -43,5 +42,4 @@ public class Decorator extends CupcakeDecoratorSupport {
     _cupcake.placeCherryOnTop(_cherry);
   }
 
-  //TODO Make a method to add a cherry below!
 }
